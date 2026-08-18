@@ -1,0 +1,8 @@
+1001,The C++ Programming Language,5
+1002,Data Structures and Algorithms,2
+1003,Introduction to Artificial Intelligence,0
+1004,Computer Networks Essentials,7
+1005,Database Management Systems,3
+1006,Operating System Concepts,0
+1007,Web Development Fundamentals,4
+1008,Software Engineering Principles,6
