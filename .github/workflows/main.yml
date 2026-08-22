@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Compile C++
-        run: g++ array.cpp -o program
+        run: g++ arrays.cpp -o program
