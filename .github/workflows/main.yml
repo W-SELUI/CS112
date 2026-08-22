@@ -1,0 +1,16 @@
+name: C++ Build
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get repository code
+        uses: actions/checkout@v4
+
+      - name: Compile C++
+        run: g++ array.cpp -o program
