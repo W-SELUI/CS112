@@ -14,3 +14,6 @@ jobs:
 
       - name: Compile C++
         run: g++ arrays.cpp -o program
+        
+      - name: Run program
+        run: ./program
