@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BCAD50A0-91FB-4F62-9EB2-F17F569D7E52}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8C146C1E-278C-4938-8B5C-6A42701A066D}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx</Extensions>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{32CC437C-FD54-4C38-AE06-8C05335DAC42}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="Medicine.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="Pharmacy.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Medicine.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="Node.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="List.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="Pharmacy.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="medicines.txt"><Filter>Data Files</Filter></None>
+  </ItemGroup>
+</Project>

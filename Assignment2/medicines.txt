@@ -1,0 +1,8 @@
+3001,Paracetamol,5
+3002,Amoxicillin,3
+3003,Ibuprofen,8
+3004,Cetirizine,3
+3005,Omeprazole,0
+3006,Metformin,6
+3007,Amlodipine,2
+3008,Vitamin C Tablets,4
